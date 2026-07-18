@@ -2,7 +2,7 @@ name="arpita"
 for naam in name:
     print(naam)
 shop=["apple","banana","orange","kiwi"]
-for fruit in shop:
+for fruit in shop:#iterative object
     print(fruit)
     for i in fruit:#nested for loop
         print(i)
