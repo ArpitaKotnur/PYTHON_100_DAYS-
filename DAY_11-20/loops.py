@@ -32,3 +32,6 @@ while True:
     if(c<50):
         print("invalid input")
         break
+        #break=to break or come out from the loop
+        #continue to skip the iteration
+
