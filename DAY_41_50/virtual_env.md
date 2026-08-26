@@ -9,19 +9,19 @@ i have installed both the pandas version and i am using it but python script doe
 we create a virtual env which is isolated from global one and we just download everything inside that like a new env which knows ntg
 # how to create that thing
 - create new folder for env
-'''bash
+```bash
 python -m venv FILE_NAME
-'''
+```
 - activate the venv(virtual env ) you created
 # for windows in terminal
-'''bash
+```bash
 FILE_NAME\Scripts\activate.bas
-'''
+```
 # in powershell
-'''bash
+```bash
 FILE_NAME\Scripts\activate.ps1
-'''
+```
 # in MAC/LINUX
-'''bash
+```bash
 source FILE_NAME\bin\activate
-'''
+```
