@@ -24,3 +24,7 @@ while True:
     print(f"half marks of student {i} in english is : {m2}")
     print(f"half marks of student {i} in sst is : {m3}")
     print(line)    
+f=open('first_file.txt','w')
+lines=['hello1\n','hello2\n','hello3\n','hello4\n'] 
+f.writelines(lines) # its a iterative function which writes till end of file and creates new line whenever it finds \n
+f.close()
