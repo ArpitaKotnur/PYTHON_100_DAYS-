@@ -1,0 +1,27 @@
+# decorator
+def wish_him(func): # takes function as argument
+  def mfx():
+    print("hello welcome to decorator")
+    func()
+    print("thanks from decorator")
+  return mfx() # return from main or outside function
+#@wish_him
+def i_am_func():
+  print("this is from func funtion")
+print("will do it using normal function call")
+wish_him(i_am_func)
+# steps to pass arguments
+def can_you_add(fx):
+  def add_this(*args,**kwargs): # *args is tuple and **kwargs is dict that will hold arguments for function you have passed in decorators
+    print("we are going to add two numbers ")
+    fx(*args,**kwargs) # arguments for the function
+    print("do come for next addition")
+  return add_this
+@can_you_add # short way
+def addition(a,b):
+  print(a+b)
+addition(2,3)
+# other way of passing
+def mila_dho(a,b):
+  print(a+b)
+can_you_add(mila_dho)(10,10)
