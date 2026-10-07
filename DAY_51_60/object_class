@@ -1,0 +1,12 @@
+class student:
+    name="arpii"
+    age=20
+    def say(self): # self indicating jho object ka hai usko
+        print(f"name of student is {self.name} and is of age {self.age}")
+default_variable=student() # the things that are mentioned in class will be there 
+default_variable.say()
+manual_variable=student()
+manual_variable.name="alisha" # user 
+manual_variable.age=23
+manual_variable.say()
+# self -> if variable is manual_variable then it will seeh self (khud ka kya hai) self.name=alisha .. this will be there
