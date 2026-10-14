@@ -29,5 +29,5 @@ ocd.show_me() # initialy shows value 10
 ocd.two_value=20 # using setter we set the value as 20
 print(ocd.two_value) # now trying to print two_value it will use 21 instead of 10 cuz using setter the value has changed to 20 permentaly 
 ocd.show_me() # give 21 cuz now the actual value has changed to 20 and + 1 dues to mentioned in setter
-
+# mostly used for encapsulation
 
